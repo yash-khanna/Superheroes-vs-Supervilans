@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-gap: 1em;
+  position: absolute;
+}
+
+.heroes,
+.vilan {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 15em;
+  flex-direction: row;
+
+}
+
+/* .heroes {
+  position: absolute;
+
+}
+
+.villan {
+  position: absolute;
+} */
+
+.vilan {
+  justify-content: ;
+}
+
+
+
+.hero1,
+.hero2,
+.hero3,
+.hero4,
+.hero5,
+.hero6,
+.hero7,
+.hero8,
+.hero9,
+.hero10,
+.villan1,
+.villan2,
+.villan3,
+.villan4,
+.villan5,
+.villan6,
+.villan7,
+.villan8,
+.villan9,
+.villan10 {
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 2px;
+  color: gray;
+  margin: 10px;
+  padding: 1rem;
+  text-align: center;
+}
+
+.strength,
+.score {
+  font-size: 3em;
+  text-align: center;
+
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+}
